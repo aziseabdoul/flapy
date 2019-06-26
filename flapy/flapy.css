@@ -1,0 +1,36 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font-family: sans-serif;
+}
+canvas {
+	display: block;
+	background: aquamarine;
+	cursor: none;
+}
+#Score {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	width: 100px;
+	min-height: 25px;
+	padding: 8px;
+	color: #000;
+	font-size: 25px;
+}
+#main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: none;
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	font-size: 4em;
+	text-align: center;
+	&.show {
+		display: block;
+	}
+}
